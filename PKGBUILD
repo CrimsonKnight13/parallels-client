@@ -1,4 +1,4 @@
-# Maintainer: jmcb <joelsgp@protonmail.com>
+# Maintainer: CrimsonKnight13
 
 pkgname='parallels-client'
 pkgver='20.2.25889'
