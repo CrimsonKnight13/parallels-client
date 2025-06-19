@@ -1,9 +1,9 @@
 # Maintainer: CrimsonKnight13
 
 pkgname='parallels-client'
-pkgver='20.2.25889'
+pkgver='20.2.25997'
 # has an extra digit in the middle for some reason
-_downloadver='20.2.0.25889'
+_downloadver='20.2.1.25997'
 pkgrel=1
 pkgdesc="A remote work tool"
 arch=('x86_64')
@@ -47,7 +47,7 @@ provides=()
 conflicts=()
 source=("https://download.parallels.com/ras/v${pkgver%%.*}/${_downloadver}/RASClient-${pkgver}_x86_64.tar.bz2")
 noextract=()
-sha256sums=('e624853ba57813a959d07f2ca66c0716a1d16754b3c1d8765953fed05fdcc86e')
+sha512sums=('908a7314eda27734e298a1d4ab76b2567de6ed38219cc64a96c01c5315b19a9b83e7c6e39b3d11368f8d92da09c64ab5500a0af15da33bca9960e19353794d68')
 
 
 package() {
