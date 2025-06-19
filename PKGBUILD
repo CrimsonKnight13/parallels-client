@@ -47,6 +47,7 @@ provides=()
 conflicts=()
 source=("https://download.parallels.com/ras/v${pkgver%%.*}/${_downloadver}/RASClient-${pkgver}_x86_64.tar.bz2")
 noextract=()
+sha256sums=('c654b10445bf374ecfd39919965e2db88803a37d6f28af2b68898edc4f6f0984')
 sha512sums=('908a7314eda27734e298a1d4ab76b2567de6ed38219cc64a96c01c5315b19a9b83e7c6e39b3d11368f8d92da09c64ab5500a0af15da33bca9960e19353794d68')
 
 
